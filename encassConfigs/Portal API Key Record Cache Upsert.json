@@ -1,0 +1,52 @@
+{
+  "goid": "6c7c363f34f2c7be63704e7f5ad4e1ed",
+  "guid": "0b6928aa-84ce-4e7a-a85f-00c5a890146c",
+  "name": "Portal API Key Record Cache Upsert",
+  "checksum": "ca4ef8c6128a5c6e17ceb6278f9caeea00a6c954",
+  "description": "This assertion is to upsert entries to the cache of the list of <(ApiKey, ApiId), planId>.",
+  "policyName": "Portal API Key Record Cache Upsert",
+  "encassArgs": [
+    {
+      "name": "idlist",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": false
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "custom_data",
+      "type": "STRING"
+    },
+    {
+      "name": "error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "error.msg",
+      "type": "STRING"
+    },
+    {
+      "name": "keyId.exceededlimit",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "keyId.iterations",
+      "type": "INTEGER"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "internalAssertions"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

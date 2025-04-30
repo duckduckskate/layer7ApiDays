@@ -1,0 +1,91 @@
+{
+  "goid": "f202378d3504ae06613cccf18b517b83",
+  "guid": "c09a3c0e-e25e-48f3-a858-9cd9f49402f6",
+  "name": "Portal Cache Store",
+  "checksum": "3904fa0badcaf9e09edcf199fdc37a9d1f218f4d",
+  "description": "Writes an item to cache with ID: cacheID with key: cacheKey.  If the cache does not exist, one will be created.  If the key exists, the existing item will be overwritten.",
+  "policyName": "Portal Cache Store",
+  "encassArgs": [
+    {
+      "name": "cacheID",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": true,
+      "guiLabel": "The Cache ID (required)"
+    },
+    {
+      "name": "cacheKey",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": true,
+      "guiLabel": "The Cache Key (identifier) for this entry (required)"
+    },
+    {
+      "name": "custom",
+      "type": "STRING",
+      "ordinal": 7,
+      "guiPrompt": true,
+      "guiLabel": "Custom"
+    },
+    {
+      "name": "maxEntries",
+      "type": "STRING",
+      "ordinal": 3,
+      "guiPrompt": true,
+      "guiLabel": "Max. number of entries for this cache (optional if a default value exists)"
+    },
+    {
+      "name": "maxEntryAge",
+      "type": "STRING",
+      "ordinal": 4,
+      "guiPrompt": true,
+      "guiLabel": "Max. entry age in seconds (optional if a default value exists)"
+    },
+    {
+      "name": "maxEntrySize",
+      "type": "STRING",
+      "ordinal": 5,
+      "guiPrompt": true,
+      "guiLabel": "Max. size for each entry (optional if a default value exists)"
+    },
+    {
+      "name": "msg",
+      "type": "MESSAGE",
+      "ordinal": 6,
+      "guiPrompt": true,
+      "guiLabel": "The message to be cached (required, must exist in the preceeding policy context)"
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "custom_data",
+      "type": "STRING"
+    },
+    {
+      "name": "error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "error.msg",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "true"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "customAssertions"
+    },
+    {
+      "name": "paletteIconBase64",
+      "value": "R0lGODlhEAAQAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/\r\n                /////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\r\n                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBm\r\n                AABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/\r\n                MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNm\r\n                ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/\r\n                mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm\r\n                zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/\r\n                /5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ\r\n                AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA\r\n                M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ\r\n                ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A\r\n                mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z\r\n                zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///yH5BAEAABAALAAAAAAQABAA\r\n                AAhWAFGg+EewoEGDAgceXEgwYUOGCAX+UwixocOKBS9OlBjxIop+/PpRZPgxZMiRBwWCFIkS4amE\r\n                Lyui4IeqDyqOJE/xexkT4syaN1tm1MlTaEagRjsWDAgAOw=="
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

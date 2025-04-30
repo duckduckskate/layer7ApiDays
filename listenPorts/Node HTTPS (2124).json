@@ -1,0 +1,34 @@
+{
+  "goid": "ca1ed30a2a935feff2f734016b1a7609",
+  "name": "Node HTTPS (2124)",
+  "protocol": "HTTPS",
+  "port": 2124,
+  "checksum": "763b6cd3d92ffa17f34c98cd9c421a27c48f6792",
+  "enabled": true,
+  "enabledFeatures": [
+    "NODE_CONTROL",
+    "INTER_NODE_COMMUNICATION"
+  ],
+  "tlsSettings": {
+    "clientAuthentication": "OPTIONAL",
+    "tlsVersions": [
+      "TLSv1.2",
+      "TLSv1.3"
+    ],
+    "cipherSuites": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLS_AES_128_GCM_SHA256",
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+    ],
+    "useCipherSuitesOrder": true
+  },
+  "properties": [
+    {
+      "name": "threadPoolSize",
+      "value": "10"
+    }
+  ]
+}

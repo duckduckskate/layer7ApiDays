@@ -1,0 +1,17 @@
+{
+  "goid": "ac77c4eece27571164b27590d253295c",
+  "name": "jsmith",
+  "login": "jsmith",
+  "checksum": "68a93ca9c30ff6b205ac5cee88d1900d133cbd07",
+  "enabled": true,
+  "password": "$6$2sCON3o9OT4cww9Q$vo63Gl/O6B8JW6l3E5Di6t4nxzcUUiK03HKnmk4XQo1CaYoHK2jYM/AtDnlVfqMHJTPvZpobyXZexMW/lx5hc0",
+  "firstName": "",
+  "lastName": "",
+  "email": "",
+  "replaceGroupMemberships": false,
+  "memberOf": [
+    {
+      "name": "Silver"
+    }
+  ]
+}

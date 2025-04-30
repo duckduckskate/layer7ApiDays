@@ -1,0 +1,13 @@
+{
+  "goid": "85639f5a783d10e3c882842db225bd1a",
+  "name": "Delete Portal Entities",
+  "checksum": "5983779aeba5f087441cfb3cf692be278148adbc",
+  "policyName": "Portal Delete Entities",
+  "jobType": "RECURRING",
+  "cronExpression": "0 */1 * * * ?",
+  "executeOnSingleNode": true,
+  "executeOnCreation": false,
+  "status": "DISABLED",
+  "runAsUser": "admin",
+  "runAsUserProviderName": "Internal Identity Provider"
+}

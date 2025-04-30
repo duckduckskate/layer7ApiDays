@@ -1,0 +1,9 @@
+{
+  "goid": "5c5fd828c0e6c4ad08c72cc85f86ec1c",
+  "name": "1c7e4d7c-de90-4fc4-8338-403d6dfdac86",
+  "checksum": "77969e33fad0decd29c919ac11460f4ca69c7dd4",
+  "description": "de66ebe1799b3a45b728893634b8cb30",
+  "enabled": true,
+  "entityClassName": "com.l7tech.external.assertions.apiportalintegration.server.PortalManagedService",
+  "valueXml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<java version=\"17.0.10\" class=\"java.beans.XMLDecoder\">\n <object class=\"com.l7tech.external.assertions.apiportalintegration.server.PortalManagedService\">\n  <void property=\"apiGroup\">\n   <string></string>\n  </void>\n  <void property=\"description\">\n   <string>de66ebe1799b3a45b728893634b8cb30</string>\n  </void>\n  <void property=\"id\">\n   <string>5c5fd828c0e6c4ad08c72cc85f86ec1c</string>\n  </void>\n  <void property=\"name\">\n   <string>1c7e4d7c-de90-4fc4-8338-403d6dfdac86</string>\n  </void>\n  <void property=\"valueXml\">\n   <string></string>\n  </void>\n  <void property=\"version\">\n   <int>4</int>\n  </void>\n </object>\n</java>\n"
+}

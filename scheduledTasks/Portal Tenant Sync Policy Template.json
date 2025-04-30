@@ -1,0 +1,13 @@
+{
+  "goid": "3e34d5de751058142ed729defab6b375",
+  "name": "Portal Tenant Sync Policy Template",
+  "checksum": "f0c348bec6d3ef70a19d36c46bda1c1a5282f4fa",
+  "policyName": "Portal Tenant Sync Policy Template",
+  "jobType": "RECURRING",
+  "cronExpression": "0 */1 * * * ?",
+  "executeOnSingleNode": true,
+  "executeOnCreation": true,
+  "status": "SCHEDULED",
+  "runAsUser": "admin",
+  "runAsUserProviderName": "Internal Identity Provider"
+}

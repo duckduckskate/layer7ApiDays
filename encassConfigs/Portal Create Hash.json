@@ -1,0 +1,51 @@
+{
+  "goid": "51b41dca9eec541b35ae23d02d0e166c",
+  "guid": "532dd6d5-7326-4e86-aaba-bd20f99ec899",
+  "name": "Portal Create Hash",
+  "checksum": "1d460d6bd74d084b70f2adbf9dfdf2a23e270d1f",
+  "description": "Create Hash",
+  "policyName": "Portal Create Hash",
+  "encassArgs": [
+    {
+      "name": "algorithm",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": true,
+      "guiLabel": "algorithm"
+    },
+    {
+      "name": "inputPlaintext",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": true,
+      "guiLabel": "inputPlaintext"
+    },
+    {
+      "name": "salt",
+      "type": "STRING",
+      "ordinal": 3,
+      "guiPrompt": true,
+      "guiLabel": "salt"
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "hashedValue",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "true"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "customAssertions"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

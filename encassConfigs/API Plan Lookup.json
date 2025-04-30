@@ -1,0 +1,62 @@
+{
+  "goid": "c75906be17960a7d528dc0550a0f8edf",
+  "guid": "18fee60c-88aa-4551-b197-602e9abd5996",
+  "name": "API Plan Lookup",
+  "checksum": "118f8b63d5187dd03d18380a4242cc84f75d2c35",
+  "description": "\n    Looking up API Plan details using ${apiKey} and ${apiId}. On success, expected output ${lookup.quota},${lookup.timeunit},${lookup.maxrequestrate},${lookup.windowsizeinseconds} and ${error.code}. Success ${error.code}==200. Failure ${error.code}==103\n    ",
+  "policyName": "API Plan Lookup",
+  "encassArgs": [
+    {
+      "name": "apiId",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": false
+    },
+    {
+      "name": "apiKey",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": false
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "lookup.maxrequestrate",
+      "type": "STRING"
+    },
+    {
+      "name": "lookup.quota",
+      "type": "STRING"
+    },
+    {
+      "name": "lookup.timeunit",
+      "type": "STRING"
+    },
+    {
+      "name": "lookup.windowsizeinseconds",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "artifactVersion",
+      "value": "35b836b47aa64af1d6c8173cb643235c2eb07a75"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "internalAssertions"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

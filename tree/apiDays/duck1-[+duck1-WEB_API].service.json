@@ -1,0 +1,22 @@
+{
+  "goid": "d0cb141dea1c3ba26a93f82a40a0835e",
+  "guid": "36e7114f-ec50-4e41-a26a-42c803f13c3c",
+  "name": "duck1",
+  "resolutionPath": "/duck1",
+  "serviceType": "WEB_API",
+  "checksum": "8a9647d2fd1761cb9eca38a1e3b489a4e05490b4",
+  "enabled": true,
+  "folderPath": "/apiDays",
+  "methodsAllowed": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "tracingEnabled": false,
+  "wssProcessingEnabled": false,
+  "laxResolution": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"eyJIaSB0aGVyZSIsIlRoaXMgaXMgYSByZXNwb25zZSBmcm9tIGEgbmV3IEFQSSBiYWNrZW5kIGFzIHNldCBpbiB0aGUgY2x1c3RlcndpZGUgcHJvcGVydHkgbWFuYWdlZCBpbiB0aGUgR0lUIHJlcG9zaXRvcnkuIn0=\"/>\n            <L7p:ResponseContentType stringValue=\"application/json; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

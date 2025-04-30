@@ -1,0 +1,75 @@
+{
+  "goid": "f6b0867f9dd395f4d60fd7222482e015",
+  "guid": "dd3fb635-ea39-447c-87b8-a1ceed209f93",
+  "name": "Portal API Key Storage Sync",
+  "checksum": "d48ce3bc98aa92057ddd585d333984bdfb957bf2",
+  "description": "Persists synchronized API Keys and OAuth client credentials from the CA API Portal to the datastorage. The assertion fails if at least one insert statement (on API Key or OAuth Client or OAuth Client Key) fails.",
+  "policyName": "Portal API Key Storage Sync",
+  "encassArgs": [
+    {
+      "name": "custom",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": false,
+      "guiLabel": "Custom"
+    },
+    {
+      "name": "incomingJson",
+      "type": "MESSAGE",
+      "ordinal": 1,
+      "guiPrompt": false
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "content-type",
+      "type": "STRING"
+    },
+    {
+      "name": "custom_data",
+      "type": "STRING"
+    },
+    {
+      "name": "error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "resp",
+      "type": "MESSAGE"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "true"
+    },
+    {
+      "name": "doc_category",
+      "value": "Storage_Access"
+    },
+    {
+      "name": "doc_in_incomingJson",
+      "value": "The JSON message MUST match the format of the CA Portal Sync message"
+    },
+    {
+      "name": "doc_require_customization",
+      "value": "false"
+    },
+    {
+      "name": "doc_usage",
+      "value": "Internal"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "internalAssertions"
+    },
+    {
+      "name": "paletteIconResourceName",
+      "value": "Save16.gif"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

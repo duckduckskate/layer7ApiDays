@@ -1,0 +1,45 @@
+{
+  "goid": "7d7277e3cd08859da931e9dd2ac26b88",
+  "guid": "68998c5f-86d3-4563-9794-8321e4f3833e",
+  "name": "Require External Bearer Token",
+  "checksum": "2634fca9660a3783d81edb64096d8aea04c7f881",
+  "description": "Validate JWT or opaque incoming tokens and retrieve the external client ID via the gateway provided \"Require and Introspect OAuth Token Assertion (Preview)\" assertion and pre-defined default issuer or known issuers.",
+  "policyName": "Require External Bearer Token",
+  "encassArgs": [],
+  "encassResults": [
+    {
+      "name": "external.client_id",
+      "type": "STRING"
+    },
+    {
+      "name": "external.error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "external.error.message",
+      "type": "STRING"
+    },
+    {
+      "name": "external.issuer",
+      "type": "STRING"
+    },
+    {
+      "name": "external.scope",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "internalAssertions"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

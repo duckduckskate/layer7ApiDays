@@ -1,0 +1,23 @@
+{
+  "goid": "69c60df0e823fc3239f2c81f245e8df7",
+  "name": "ApiPortalIntegrationAssertion",
+  "checksum": "45518dd1939aebf4b04f0986a5a1fcc08232d424",
+  "moduleType": "MODULAR_ASSERTION",
+  "moduleSha256": "becb61369bde30887022ab9c31cdaf5463a49d75f7fd4225d317beb97a42b4e0",
+  "signature": "MEYCIQDMH8bZB1MUrGVk/Lt9uMOxb4ONkPvVeQRI+vIM3fcwsAIhALTuka1dgiGWPDwNxEyq2r4rOJ0K5FYnfhhsp2UwsiXS",
+  "signerCertBase64": "MIIBdjCCARygAwIBAgIICZtYr8gahucwCQYHKoZIzj0EATAbMRkwFwYDVQQDExByb290LmFwaW0uY2EuY29tMB4XDTE1MDgwNjIzMzkxNloXDTM1MDgwNjIzMzkxNlowJDEiMCAGA1UEAxMZc2lnbmVyLnBvcnRhbC5hcGltLmNhLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEh0duKx8veixVN/IDv9LYxbJG5EN02cFrXRn3M1CtxctO/jzPeZedJ70s0Nndi8DaLO7rgwEJyd+TWXZ5DoaDOjQjBAMB0GA1UdDgQWBBR/eUB5YxeAQBnXngwC8PZUA7mC+DAfBgNVHSMEGDAWgBTr9k+HhvWquHQ4/HRqhelY9+NC8DAJBgcqhkjOPQQBA0kAMEYCIQCTsunDFyIJalf495pb1WZQqZ9cGRrvJ0O8ROYeHrh3ywIhAJoYCvJN4EwqU/r47fS0H1jxlqaArZH6/bWyJY7S9Sth",
+  "properties": [
+    {
+      "name": "moduleAssertions",
+      "value": "ApiPortalAuthAndMgmtServiceInstallerAssertion,ApiPortalEncassIntegrationAssertion,ApiPortalIntegrationAssertion,GeneratePasswordAssertion,GetApiIncrementAssertion,GetIncrementAssertion,IncrementPostBackAssertion,LDAPUpdateAssertion,LookupApiKeyAssertion,ManageApiKeyAssertion,ManagePortalResourceAssertion,ODataProducerAssertion,ProcessIncrementAssertion"
+    },
+    {
+      "name": "moduleFileName",
+      "value": "ApiPortalIntegrationAssertion.aar"
+    },
+    {
+      "name": "moduleSize",
+      "value": "4320950"
+    }
+  ]
+}

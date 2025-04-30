@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "id": "561e7eec-8dc2-44c7-b706-932e8465e128",
+    "name": "Gateway Graphman Bundle - 2025-04-30T20:08:18.425Z",
+    "author": "admin",
+    "hostname": "duckgw1.duckman.ca",
+    "timestamp": "2025-04-30T20:08:18.425Z"
+  },
+  "defaultAction": "NEW_OR_UPDATE"
+}

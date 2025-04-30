@@ -1,0 +1,13 @@
+{
+  "goid": "fdebab2db3cf1a1ae1efdbe7b58752b9",
+  "name": "duckman",
+  "login": "duckman",
+  "checksum": "070d03d13bc78473ad410631624ba329dcda08a3",
+  "enabled": true,
+  "password": "$6$D4Ph9ASXUoN0Ooss$iVgMAQ1afbLhMEbQySZ7T9PtMAVyxpVCKFwTI3/DDuQBmbynSTZn0BsE/PD6kpjhLleceg/Jz1xFRr8zL5you1",
+  "firstName": "Geoffrey",
+  "lastName": "Duck",
+  "email": "geoff.r.duck@gmail.com",
+  "replaceGroupMemberships": false,
+  "memberOf": []
+}

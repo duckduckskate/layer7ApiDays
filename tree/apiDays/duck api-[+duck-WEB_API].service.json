@@ -1,0 +1,22 @@
+{
+  "goid": "8fcb1396647ee837435e56165f344d4d",
+  "guid": "304f9671-bc7c-497c-ae77-7264f128cd8e",
+  "name": "duck api",
+  "resolutionPath": "/duck",
+  "serviceType": "WEB_API",
+  "checksum": "6e9377cdd9a5b77fb51b02ad87f0f0fdf000ebf7",
+  "enabled": true,
+  "folderPath": "/apiDays",
+  "methodsAllowed": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "tracingEnabled": false,
+  "wssProcessingEnabled": false,
+  "laxResolution": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"eyJIaSB0aGVyZSIsIllvdXIgZHVjayBBUEkgV29ya3MifQ==\"/>\n            <L7p:ResponseContentType stringValue=\"application/json; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

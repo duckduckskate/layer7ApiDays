@@ -1,0 +1,8 @@
+{
+  "goid": "bd1e20c71253a47ac5b4ef1ddeef5bc3",
+  "name": "75e6aff2-1d58-4a08-959e-5ac5335a1d06",
+  "checksum": "bdde76dc4d7cdbffdc8a69667bc445fef5b6ed99",
+  "enabled": true,
+  "entityClassName": "com.l7tech.external.assertions.apiportalintegration.server.PortalManagedEncass",
+  "valueXml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<java version=\"17.0.10\" class=\"java.beans.XMLDecoder\">\n <object class=\"com.l7tech.external.assertions.apiportalintegration.server.PortalManagedEncass\">\n  <void property=\"encassGuid\">\n   <string>75e6aff2-1d58-4a08-959e-5ac5335a1d06</string>\n  </void>\n  <void property=\"encassId\">\n   <string>acf1c0563f686059bc489bd1d684be3e</string>\n  </void>\n  <void property=\"id\">\n   <string>bd1e20c71253a47ac5b4ef1ddeef5bc3</string>\n  </void>\n  <void property=\"valueXml\">\n   <string></string>\n  </void>\n  <void property=\"version\">\n   <int>5</int>\n  </void>\n </object>\n</java>\n"
+}

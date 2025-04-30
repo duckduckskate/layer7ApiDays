@@ -1,0 +1,37 @@
+{
+  "goid": "b4cf444ea1a0d97635e332116c4e0b0c",
+  "guid": "5821066a-15a6-4523-a8f7-3d159129cdb5",
+  "name": "Portal Escape XML",
+  "checksum": "aa90bd4dd56a937c08608e23f2acd827cbab1788",
+  "description": "xml escape the input",
+  "policyName": "escape XML",
+  "encassArgs": [
+    {
+      "name": "escapedXml",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": true,
+      "guiLabel": "xml"
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "escapedXml",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "policyLogic"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

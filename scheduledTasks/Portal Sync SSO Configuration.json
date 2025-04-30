@@ -1,0 +1,13 @@
+{
+  "goid": "f33bcebd7be619ee043cb60b544f5d34",
+  "name": "Portal Sync SSO Configuration",
+  "checksum": "95913c76b92660c2dea56cad8ba011b0a4764494",
+  "policyName": "Portal Sync SSO",
+  "jobType": "RECURRING",
+  "cronExpression": "0 */1 * * * ?",
+  "executeOnSingleNode": true,
+  "executeOnCreation": false,
+  "status": "SCHEDULED",
+  "runAsUser": "admin",
+  "runAsUserProviderName": "Internal Identity Provider"
+}

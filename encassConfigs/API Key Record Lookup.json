@@ -1,0 +1,54 @@
+{
+  "goid": "c75906be17960a7d528dc0550a0f8e9a",
+  "guid": "8b765e69-af82-4bc3-9764-291be4d1bbf4",
+  "name": "API Key Record Lookup",
+  "checksum": "1914cba0a8c3aa90f0e91dd307d22ea9047bebb8",
+  "description": "\n    Looking up for API Plan by using ${apiKey} and ${apiId}. Expected ${lookup.planId} on success\n    ",
+  "policyName": "API Key Record Lookup",
+  "encassArgs": [
+    {
+      "name": "apiId",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": false
+    },
+    {
+      "name": "apiKey",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": false
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "error.code",
+      "type": "STRING"
+    },
+    {
+      "name": "error.message",
+      "type": "STRING"
+    },
+    {
+      "name": "lookup.planId",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "artifactVersion",
+      "value": "cb991c31fed59f57918b31253640f2ff495fde07"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "internalAssertions"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

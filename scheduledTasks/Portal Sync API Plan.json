@@ -1,0 +1,13 @@
+{
+  "goid": "2fb8aaa0b64c671b2d0d5a63aa00eb37",
+  "name": "Portal Sync API Plan",
+  "checksum": "a8b8f58c97109a54458f676dc9b066a70e2f7d88",
+  "policyName": "Portal Sync API Plan",
+  "jobType": "RECURRING",
+  "cronExpression": "0 */30 * * * ?",
+  "executeOnSingleNode": true,
+  "executeOnCreation": false,
+  "status": "DISABLED",
+  "runAsUser": "admin",
+  "runAsUserProviderName": "Internal Identity Provider"
+}
