@@ -1,8 +1,0 @@
-{
-  "goid": "bd1e20c71253a47ac5b4ef1ddeef5bc1",
-  "name": "2e69dcfb-2302-4959-b43c-1931a152b8e4",
-  "checksum": "2c473d6e03e86127e62d915b51c965dceb41f12f",
-  "enabled": true,
-  "entityClassName": "com.l7tech.external.assertions.apiportalintegration.server.PortalManagedEncass",
-  "valueXml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<java version=\"17.0.10\" class=\"java.beans.XMLDecoder\">\n <object class=\"com.l7tech.external.assertions.apiportalintegration.server.PortalManagedEncass\" id=\"PortalManagedEncass0\">\n  <void property=\"encassGuid\">\n   <string>2e69dcfb-2302-4959-b43c-1931a152b8e4</string>\n  </void>\n  <void property=\"encassId\">\n   <string>4c5453d9a34fa56f13df266ac9483568</string>\n  </void>\n  <void id=\"Boolean0\" method=\"isEnabled\"/>\n  <void property=\"hasRouting\">\n   <object idref=\"Boolean0\"/>\n  </void>\n  <void property=\"id\">\n   <string>bd1e20c71253a47ac5b4ef1ddeef5bc1</string>\n  </void>\n  <void property=\"valueXml\">\n   <string></string>\n  </void>\n  <void property=\"version\">\n   <int>5</int>\n  </void>\n </object>\n</java>\n"
-}
