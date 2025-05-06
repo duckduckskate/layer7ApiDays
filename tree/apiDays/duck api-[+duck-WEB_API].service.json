@@ -17,6 +17,15 @@
   "wssProcessingEnabled": false,
   "laxResolution": false,
   "policy": {
-    "yaml": "---\nAll:\n- HardcodedResponse:\n    body: \"{\\\"Hi there\\\",\\\"Your duck API Works\\\"}\"\n    contentType: \"application/json; charset=UTF-8\"\n"
+    "code": {
+      "All": [
+        {
+          "HardcodedResponse": {
+            "body": "{\"Hi there\",\"Your duck API Works\"}",
+            "contentType": "application/json; charset=UTF-8"
+          }
+        }
+      ]
+    }
   }
 }

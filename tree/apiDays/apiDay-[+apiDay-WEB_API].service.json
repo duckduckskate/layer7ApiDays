@@ -17,6 +17,105 @@
   "wssProcessingEnabled": false,
   "laxResolution": false,
   "policy": {
-    "yaml": "---\nAll:\n- Ssl: {}\n- All:\n  - HttpBasic: {}\n  - Authentication:\n      identityProviderOid: \"0000000000000000fffffffffffffffe\"\n  \".properties\":\n    \".right.comment\": \"//Check identity\"\n- All:\n  - RateLimit:\n      counterName: \"PRESET(8e92d7f7752a47a4)${request.clientid}\"\n      maxRequestsPerSecond: \"10\"\n  \".properties\":\n    \".right.comment\": \"//Apply Rate Limit\"\n- All:\n  - RequestSizeLimit: {}\n  - SqlAttack:\n      includeUrlQueryString: true\n      protections:\n      - \"SqlMetaText\"\n      - \"OraSql\"\n      - \"SqlMeta\"\n  - CodeInjectionProtection:\n      includeBody: true\n      protections:\n      - \"htmlJavaScriptInjection\"\n      target: \"REQUEST\"\n  \".properties\":\n    \".right.comment\": \"//limit size and injection attack protection\"\n- HttpRouting:\n    omitAuthHeaderConnectReuseSystemDefault: true\n    protectedServiceUrl: \"${gateway.apidays.route}\"\n    requestHeaderRules:\n      \".type\": \"httpPassthroughRuleSet\"\n      forwardAll: true\n      rules:\n      - \".type\": \"httpPassthroughRule\"\n        name: \"Cookie\"\n      - \".type\": \"httpPassthroughRule\"\n        name: \"SOAPAction\"\n    requestParamRules:\n      \".type\": \"httpPassthroughRuleSet\"\n      forwardAll: true\n      rules: []\n    responseHeaderRules:\n      \".type\": \"httpPassthroughRuleSet\"\n      forwardAll: true\n      rules:\n      - \".type\": \"httpPassthroughRule\"\n        name: \"Set-Cookie\"\n    samlAssertionVersion: 2\n"
+    "code": {
+      "All": [
+        {
+          "Ssl": {}
+        },
+        {
+          "All": [
+            {
+              "HttpBasic": {}
+            },
+            {
+              "Authentication": {
+                "identityProviderOid": "0000000000000000fffffffffffffffe"
+              }
+            }
+          ],
+          ".properties": {
+            ".right.comment": "//Check identity"
+          }
+        },
+        {
+          "All": [
+            {
+              "RateLimit": {
+                "counterName": "PRESET(8e92d7f7752a47a4)${request.clientid}",
+                "maxRequestsPerSecond": "10"
+              }
+            }
+          ],
+          ".properties": {
+            ".right.comment": "//Apply Rate Limit"
+          }
+        },
+        {
+          "All": [
+            {
+              "RequestSizeLimit": {}
+            },
+            {
+              "SqlAttack": {
+                "includeUrlQueryString": true,
+                "protections": [
+                  "SqlMetaText",
+                  "OraSql",
+                  "SqlMeta"
+                ]
+              }
+            },
+            {
+              "CodeInjectionProtection": {
+                "includeBody": true,
+                "protections": [
+                  "htmlJavaScriptInjection"
+                ],
+                "target": "REQUEST"
+              }
+            }
+          ],
+          ".properties": {
+            ".right.comment": "//limit size and injection attack protection"
+          }
+        },
+        {
+          "HttpRouting": {
+            "omitAuthHeaderConnectReuseSystemDefault": true,
+            "protectedServiceUrl": "${gateway.apidays.route}",
+            "requestHeaderRules": {
+              ".type": "httpPassthroughRuleSet",
+              "forwardAll": true,
+              "rules": [
+                {
+                  ".type": "httpPassthroughRule",
+                  "name": "Cookie"
+                },
+                {
+                  ".type": "httpPassthroughRule",
+                  "name": "SOAPAction"
+                }
+              ]
+            },
+            "requestParamRules": {
+              ".type": "httpPassthroughRuleSet",
+              "forwardAll": true,
+              "rules": []
+            },
+            "responseHeaderRules": {
+              ".type": "httpPassthroughRuleSet",
+              "forwardAll": true,
+              "rules": [
+                {
+                  ".type": "httpPassthroughRule",
+                  "name": "Set-Cookie"
+                }
+              ]
+            },
+            "samlAssertionVersion": 2
+          }
+        }
+      ]
+    }
   }
 }
