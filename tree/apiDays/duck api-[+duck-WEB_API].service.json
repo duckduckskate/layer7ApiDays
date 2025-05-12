@@ -21,7 +21,7 @@
       "All": [
         {
           "HardcodedResponse": {
-            "body": "{\"Hi there\",\"Your duck API Works\"}",
+            "body": "{\"Hi there\",\"Your duck API Works\"}\n\n",
             "contentType": "application/json; charset=UTF-8"
           }
         }
