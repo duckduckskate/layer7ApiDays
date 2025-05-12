@@ -4,5 +4,5 @@
   "checksum": "740f4e6cd05361f272beb8f40ad271b959ec7a25",
   "description": "",
   "hiddenProperty": false,
-  "value": "https://duckgw1.duckman.ca:8443/duck1"
+  "value": "https://localhost:8443/duck1"
 }
