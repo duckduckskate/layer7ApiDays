@@ -114,6 +114,22 @@
             },
             "samlAssertionVersion": 2
           }
+        },
+        {
+            "AuditDetail": {
+            "detail": "Successfully transaction finished at ${gateway.time}",
+            "loggingOnly": true
+            }
+        },
+        {
+            "OtelMeter": {
+            "attributes": {
+                "backend_url": "${httpRouting.url}"
+            },
+            "description": "",
+            "name": "apidays_success_counter",
+            "type": "COUNTER"
+            }
         }
       ]
     }
